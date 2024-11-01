@@ -1,0 +1,14 @@
+{
+  "name": "backend-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "core/app.ts",
+  "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register core/app.ts",
+    "build": "tsc",
+    "start": "node lib/core/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

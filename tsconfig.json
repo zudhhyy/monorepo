@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/shared": ["./packages/shared"]
+    }
+  },
+  "references": [
+    { "path": "./packages/shared" },
+    { "path": "./apps/frontend-repo" },
+    { "path": "./apps/backend-repo" }
+  ]
+}
